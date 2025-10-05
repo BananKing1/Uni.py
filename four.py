@@ -10,11 +10,11 @@ def main():
             print("Try again")
 
     # Declaration and calculations
-    a=year%19
-    b=year%4
-    c=year%7
-    d=(19*a+24)%30
-    e=(2*b+4*c+6*d+5)%7
+    a = year%19
+    b = year%4
+    c = year%7
+    d = (19*a+24)%30
+    e = (2*b+4*c+6*d+5)%7
 
     # If date is 31 or less, the month is March and the calculated date
     # Then print date
